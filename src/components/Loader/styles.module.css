@@ -1,0 +1,14 @@
+@keyframes spinner {
+  to {
+    opacity: 0.3;
+    transform: rotate(360deg);
+  }
+}
+
+.spinnerBox {
+  align-items: center;
+  animation: spinner 800ms ease-out infinite;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}

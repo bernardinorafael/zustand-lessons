@@ -1,0 +1,34 @@
+.repositoryContainer {
+  background: #1c1c1c;
+  border-radius: 8px;
+  border: 1px solid #282828;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.repositoryContainer:hover {
+  border: 1px solid #343434;
+  transition: border-color 300ms;
+}
+
+.repositoryContainer strong {
+  font-size: 1.25rem;
+	line-height: 1.8;
+}
+
+.repositoryContainer > button {
+  aspect-ratio: 1 / 1;
+  background: #232323;
+  border-radius: 8px;
+  border: none;
+  color: #e1e1e6;
+  height: 38px;
+  line-height: 0;
+  outline: none;
+  transform-origin: bottom center;
+}
+.repositoryContainer > button:active {
+  transform: scale(0.9);
+}
